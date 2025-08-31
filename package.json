@@ -1,0 +1,20 @@
+{
+  "name": "medfast-main",
+  "version": "1.0.0",
+  "description": "Medical AI assistance platform",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd medfastai3/client && npm install --legacy-peer-deps && npm run build",
+    "start": "cd medfastai3/client && npm start",
+    "test": "cd medfastai3/client && npm test"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["healthcare", "AI", "medical"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jspdf": "^2.5.1"
+  }
+}
